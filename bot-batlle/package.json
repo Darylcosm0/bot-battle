@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "json-server --watch db.json -p 6001 & open http://localhost:8001/bots & PORT=6002 react-scripts start && fg",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -32,6 +32,7 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
+      
       "last 1 safari version"
     ]
   }
