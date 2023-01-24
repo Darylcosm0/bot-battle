@@ -29,7 +29,7 @@
   max-width: 100%;
 }
 
-.ui.grid > .row.bot-army-row {
+.row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
 }
@@ -87,6 +87,7 @@
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
+  color: #61dafb;
 }
 
 .ui.grid {
